@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopDemo - 商品一覧</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1 class="logo"><a href="index.html">ShopDemo</a></h1>
+      <nav>
+        <a href="cart.html" class="cart-link">
+          カート <span class="cart-count" id="cartCount">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>テスト用 ECサイト</h2>
+      <p>商品を選んでカートに追加してください</p>
+    </section>
+
+    <section class="products">
+      <h2 class="section-title">商品一覧</h2>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 ShopDemo</p>
+  </footer>
+
+  <div class="toast" id="toast">カートに追加しました</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
